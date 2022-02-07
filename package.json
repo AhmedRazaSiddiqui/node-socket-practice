@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node WebHR.js",
-    "dev": "nodemon WebHR.js"
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
   },
   "keywords": [],
   "author": "",
