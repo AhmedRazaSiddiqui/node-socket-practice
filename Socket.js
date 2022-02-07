@@ -4,5 +4,11 @@ export default (io) => {
       "Socket Connected ----------------------------->>>>>>>>>>>>>>>>>>>-->>>",
       socket.id
     );
+    socket.on("disconnect", async () => {
+      console.log(
+        "Socket Disconnected ----------------------------->>>>>>>>>>>>>>>>>>>-->>>",
+        socket.id
+      );
+    });
   });
 };
